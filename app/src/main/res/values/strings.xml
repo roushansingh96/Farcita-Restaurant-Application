@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Farcita</string>
+    <string name="api_base_link">localhost:3000/</string>
+</resources>

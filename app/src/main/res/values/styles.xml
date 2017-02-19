@@ -1,11 +1,23 @@
-<resources>
+    <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#FF0000</item>
+        <item name="android:colorButtonNormal">#2196f3</item>
     </style>
 
-</resources>
+        <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+            <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+            <item name="android:textColor">#FF0000</item>
+            <item name="android:colorButtonNormal">#c2949292</item>
+        </style>
+
+        <style name="LinearProgress" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorAccent">#9FA8DA</item>
+            <item name="android:progressBackgroundTint">#F8BBD0</item>
+        </style>
+
+    </resources>

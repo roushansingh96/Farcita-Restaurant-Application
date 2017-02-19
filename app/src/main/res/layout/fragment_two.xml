@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="200dp"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:background="@drawable/card_view"
+             tools:context="com.farcita.www.farcita.views.activities.FragmentTwo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Rating Of Restaurant"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="20"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:theme="@style/LinearProgress"/>
+
+
+</FrameLayout>

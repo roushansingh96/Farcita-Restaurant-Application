@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/card_view">
+
+    <TextView
+        android:id="@+id/top_dish_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Top Dish Name"
+        android:padding="18dp"/>
+    <View
+        android:layout_width="6dip"
+        android:layout_height="46dip"
+        android:padding="5dp"
+        android:background="#B1BCBE"
+        android:layout_toEndOf="@+id/top_dish_name"
+        android:layout_alignBottom="@+id/top_dish_name"/>
+
+    <RatingBar
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/top_dish_name"/>
+
+</RelativeLayout>

@@ -48,7 +48,10 @@ public class FetchCuisines extends AsyncTask<String, Void, ArrayList<Cuisine>> {
             while ((line = bufferedReader.readLine()) != null) {
                 response += line;
             }
+<<<<<<< HEAD
             AppUtilMethods.errorLogger(response);
+=======
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
             listOfCuisines = new ArrayList<>();
             listOfDishes = new ArrayList<>();
             JSONArray jsonArray = new JSONArray(response);
@@ -64,7 +67,10 @@ public class FetchCuisines extends AsyncTask<String, Void, ArrayList<Cuisine>> {
 
         } catch (Exception e) {
             e.printStackTrace();
+<<<<<<< HEAD
             AppUtilMethods.errorLogger(e.getMessage());
+=======
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
         }
         return listOfCuisines;
     }

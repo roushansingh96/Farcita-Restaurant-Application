@@ -9,10 +9,20 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+<<<<<<< HEAD
 import com.farcita.www.farcita.R;
 import com.farcita.www.farcita.models.Cuisine;
 
 import java.util.List;
+=======
+import com.farcita.www.farcita.AppUtilMethods;
+import com.farcita.www.farcita.R;
+import com.farcita.www.farcita.models.Cuisine;
+import com.farcita.www.farcita.models.Dish;
+
+import java.util.List;
+import java.util.StringTokenizer;
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
 
 /**
  * Created by gaurav on 22/01/17.
@@ -69,7 +79,11 @@ public class CuisinseRecyclerViewAdapter extends RecyclerView.Adapter<CuisinseRe
         }
 
         private void initialiseDishRecyclerView() {
+<<<<<<< HEAD
             dishRecyclerView.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL,false));
+=======
+            dishRecyclerView.setLayoutManager(new LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false));
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
             dishRecyclerView.setAdapter(new DishRecyclerViewAdapter(dataForViewHolder.getDishList()));
         }
     }

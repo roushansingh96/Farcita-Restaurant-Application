@@ -1,7 +1,15 @@
 package com.farcita.www.farcita.views.activities;
 
+<<<<<<< HEAD
 import android.content.Context;
 import android.content.Intent;
+=======
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -11,7 +19,11 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.farcita.www.farcita.R;
+<<<<<<< HEAD
 import com.farcita.www.farcita.views.fargments.FeedbackFragment;
+=======
+import com.farcita.www.farcita.views.fragments.FeedbackFragment;
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -104,7 +116,11 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private void bringUpTheMenuBar(){
         LinearLayout linearLayout = (LinearLayout)findViewById(R.id.mainactivity_menubar);
         linearLayout.setVisibility(View.VISIBLE);
+<<<<<<< HEAD
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.grow_from_bottom);
+=======
+        Animation animation = AnimationUtils.loadAnimation(this,R.anim.grow_from_bottom);
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
         animation.setDuration(1000);
         linearLayout.setAnimation(animation);
         linearLayout.animate();

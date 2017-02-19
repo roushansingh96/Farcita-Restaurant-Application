@@ -3,6 +3,10 @@ package com.farcita.www.farcita.views.adapters;
 import android.animation.AnimatorInflater;
 import android.animation.ObjectAnimator;
 import android.content.Context;
+<<<<<<< HEAD
+=======
+import android.media.Image;
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,10 +14,18 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+<<<<<<< HEAD
+=======
+import com.farcita.www.farcita.AppUtilMethods;
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
 import com.farcita.www.farcita.R;
 import com.farcita.www.farcita.models.Dish;
 
 import java.util.List;
+<<<<<<< HEAD
+=======
+import java.util.StringTokenizer;
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
 
 /**
  * Created by gaurav on 22/01/17.
@@ -71,7 +83,11 @@ public class DishRecyclerViewAdapter extends RecyclerView.Adapter<DishRecyclerVi
         }
 
         private void flipView(ImageView imageView){
+<<<<<<< HEAD
             ObjectAnimator animator = (ObjectAnimator) AnimatorInflater.loadAnimator(context, R.animator.flipping);
+=======
+            ObjectAnimator animator = (ObjectAnimator) AnimatorInflater.loadAnimator(context,R.animator.flipping);
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
             animator.setTarget(imageView);
             animator.setDuration(500);
             animator.start();

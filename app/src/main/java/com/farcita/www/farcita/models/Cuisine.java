@@ -1,5 +1,10 @@
 package com.farcita.www.farcita.models;
 
+<<<<<<< HEAD
+=======
+import com.farcita.www.farcita.AppUtilMethods;
+
+>>>>>>> 6e5c7368d5ee1a1fcecb6227ab15f7ca9098aac2
 import java.util.List;
 
 /**

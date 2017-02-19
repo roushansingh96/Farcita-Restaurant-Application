@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/mainactivity_fragemnt_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/mainactivity_menubar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:id="@+id/menubar_message"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/menubar_message_iv"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/message_white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menubar_edit"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/menubar_edit_iv"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit_white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menubar_bill"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/menubar_bill_iv"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bill_white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menubar_stats"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/menubar_stats_iv"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stats_white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menubar_account"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/menubar_account_iv"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/account_white" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -45,7 +45,6 @@ public class LoginActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         bindViewsToActivity();
-        AppUtilMethods.setRestaurantIdInSharedPref(this,"2");
         checkIfLoggedIn();
     }
 
